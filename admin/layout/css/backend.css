@@ -1,0 +1,400 @@
+/*Start min Ruls*/
+
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.nice-massage {
+    color: #67bad3;
+    background-color: #d8dee1;
+    border-color: #ffffff;
+    border-left: 5px solid black;
+}
+
+
+/*Startlogin form*/
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #6e6e6e;
+    font-weight: bold;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login input {
+    margin: 10px;
+}
+
+input[type="submit"] {
+    background-color: #1877f2;
+}
+
+.login .form-control {
+    background-color: #ffffff80;
+}
+
+
+/*EndloginFrorm*/
+
+
+/*Start navbat*/
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav>li>a {
+    padding: 15px 11px;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #4f94eff2;
+    color: white;
+}
+
+.dropdown-menu>li>a {
+    background-color: #4f94eff2;
+    padding: 10px 16px;
+    color: white;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+}
+
+.asterisk {
+    color: red;
+    position: absolute;
+    right: -12px;
+    font-size: 30px;
+    top: 9px;
+}
+
+.show-pass {
+    top: 218px;
+    position: absolute;
+    right: 298px;
+}
+
+
+/*Start table*/
+
+.table-mange tr:first-child td {
+    background-color: #000000d6;
+    color: #ffffffc7;
+}
+
+.table-mange td {
+    background: #fff;
+    vertical-align: middle !important;
+}
+
+.table-mange .btn {
+    padding: 4px 10px;
+}
+
+.table-mange .acteveted {
+    margin-left: 4px;
+}
+
+
+/*Start dashbord*/
+
+.home-stat {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stat .stat {
+    border: 1px solid #888686;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.home-stat .stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.home-stat .stat a {
+    color: white;
+}
+
+.home-stat .stat a:hover {
+    text-decoration: none;
+}
+
+.lates {
+    margin-top: 30px;
+}
+
+.lates .panel-body {
+    padding: 0;
+}
+
+.home-stat .stat {
+    background: #45aaf2;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stat .stat i {
+    font-size: 90px;
+    position: absolute;
+    right: 153px;
+}
+
+.home-stat .stat .info {
+    float: right;
+}
+
+.home-stat .st-Pending {
+    background: #fc5c65;
+}
+
+.home-stat .st-items {
+    background: #fd9644;
+}
+
+.home-stat .st-Comments {
+    background: #7d5fff;
+}
+
+.lates .taggel-info {
+    color: #888;
+}
+
+.lates .taggel-info:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.lates-user,
+.lates-items {
+    margin-bottom: 0;
+    padding: 13px;
+}
+
+.lates-user li {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.lates-user li:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.lates-user .btn-success {
+    padding: 6PX 12px;
+    margin-left: 6px
+}
+
+.comment-box {
+    margin: 10px 0;
+}
+
+.comment-box .member-c,
+.comment-box .member-n {
+    float: left;
+}
+
+.comment-box .member-c {
+    width: calc(100% - 122.4px);
+    background-color: #f5f5f5;
+    padding: 10PX;
+    position: relative;
+    top: 11px;
+}
+
+.comment-box .member-c:before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-color: transparent #f5f5f5 transparent transparent;
+    position: absolute;
+    left: -30px;
+    top: 8px;
+}
+
+.comment-box .member-n {
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    top: 23px;
+}
+
+
+/*End Dashbord*/
+
+
+/*Start Categoris*/
+
+.categorise {
+    overflow: hidden;
+}
+
+.categorise .cat:hover {
+    background-color: #f0f2f5;
+}
+
+.categorise .cat:hover .buttoncat {
+    right: 20px;
+}
+
+.categorise .cat {
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+
+.cat-icone i {
+    font-size: 59px;
+    margin-right: 10px;
+    color: #ffc747;
+}
+
+.categorise hr {
+    margin: 0;
+    padding: 0;
+}
+
+.cat h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #817f7f;
+}
+
+.categorise .panel-body {
+    padding: 0;
+}
+
+.categorise .cat:last-of-type~hr {
+    display: none;
+}
+
+.cat .visibility,
+.cat .Comment,
+.cat .Adscat {
+    margin-right: 3px;
+    color: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.cat .visibility {
+    background: #d35400;
+}
+
+.cat .Comment {
+    background: #2c3e50;
+    color: white;
+}
+
+.cat .Adscat {
+    background: #2980b9;
+    color: white;
+}
+
+.categorise .cat .buttoncat {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    right: -175px;
+    top: 29px;
+}
+
+.categorise .ordering-sort a {
+    text-decoration: none;
+    color: black;
+}
+
+.categorise .ordering-sort .active {
+    color: #e74c3c;
+    font-weight: bolder;
+}
+
+.add-categorise .Parent {
+    padding-left: 0;
+}
+
+.selectboxit-container .selectboxit {
+    width: 105%;
+}
+
+.chiled-cat-head {
+    margin: 5px 0 5px 61px;
+}
+
+.chiled-cat-head ul {
+    margin-left: 34px;
+}
+
+.chiled-cat-head h4 {
+    color: #449d44;
+}
+
+.chiled-cat-head li:before {
+    content: "-";
+}
+
+.delete-chiled {
+    color: red;
+    display: none;
+}
+
+.delete-chiled:hover {
+    color: red;
+}
+
+.cat-parent {
+    padding-left: 0;
+}
+
+
+/*End Categoris*/
+
+
+/*Start items*/
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a {
+    line-height: 1.3333333;
+    height: 46px;
+}
+
+.form-group-lg .form-control {
+    margin-bottom: 10px;
+    width: 105%;
+}
+
+.selectboxit-container .selectboxit {
+    margin-bottom: 10px;
+}
+
+
+/*page member*/
+
+.mange_member img {
+    width: 50px;
+    height: 50px;
+}

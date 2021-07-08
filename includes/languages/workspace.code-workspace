@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\..\\..\\mysql"
+		},
+		{
+			"path": "D:\\eCommerce Shop\\creat_shop"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "ecommerce"
+    }
+}
